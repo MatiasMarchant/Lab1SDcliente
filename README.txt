@@ -7,6 +7,9 @@ Integrantes:
 Grupo: N&M's
 
 Para ejecutar, ingrese a la carpeta “Lab1SDcliente” con el comando ‘cd Lab1SDcliente’ y luego ejecute 'make run' para ejecutar los archivos.
+El sistema clientes le pedirá que ingrese si es cliente retail o pymes, las únicas opciones que funcionan es 'retail' ó 'pymes' en minúscula.
+Se recomienda hacer la opción retail primero, que ingrese las órdenes y después cuando éste termine, hacer la opción pymes ya que la opción pymes no tiene
+tiempo de finalización debido a que pide estado de paquetes indefinidamente.
 
 La disposición de los roles de las máquinas virtuales es la siguiente:
 Dist37 -> Logística
