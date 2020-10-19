@@ -113,6 +113,7 @@ func preguntasiniciales() (string, string) {
 
 //main se conecta con logistica, llama a funciones definidas anteriormente y simula ingreso de códigos de seguimientos en el caso pymes
 func main() {
+	fmt.Println("Corriendo el sistema de cliente...\n")
 	var tipotienda, tiempoespera string
 	tipotienda, tiempoespera = preguntasiniciales()
 
